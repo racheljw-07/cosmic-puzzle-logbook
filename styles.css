@@ -1,1 +1,4 @@
-
+function showAnswer() {
+    var answer = document.getElementById('answer');
+    answer.style.display = 'block'; // This makes the answer appear when the button is clicked
+}
