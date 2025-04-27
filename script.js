@@ -33,3 +33,7 @@ footer {
     margin-top: 50px;
     font-size: 14px;
 }
+function showAnswer() {
+    var answer = document.getElementById('answer');
+    answer.style.display = 'block'; // This will make the answer visible
+}
